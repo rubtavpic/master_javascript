@@ -33,6 +33,32 @@
             </blockquote>
         </p>
 
+        <h3>Formulario</h3>
+        <form>
+            <p>
+                <label for="nombre">Nombre</label>
+                <input type="text" name="nombre" placeholder="Escribe tu nombre..."/>
+            </p>
+
+            <p>
+                <label for="descripcion">Descripción</label>
+                <textarea name="descripcion"></textarea>
+            </p>
+
+            <input type="radio" name="genero" value="hombre"> Hombre <br/>
+            <input type="radio" name="genero" value="mujer"> Mujer <br/>
+            <input type="radio" name="genero" value="nada"> Nada <br/>
+
+            <select name="generodos">
+                <option value="hombre">Hombre</option>
+                <option value="mujer">Mujer</option>
+                <option value="nada">Nada</option>
+            </select>
+
+            <input type="submit" value="Enviar formulario">
+
+        </form>
+
         <h3>Listado de frutas</h3>
         <ul>
             <li>Manzana
@@ -45,5 +71,25 @@
             <li>Pera</li>
             <li>Sandía</li>
         </ul>
+
+        <h3>Tablas</h3>
+        <table border="1">
+            <tr>
+                <th>Nombre</th>
+                <th>Apellidos</th>
+                <th>Pais</th>
+            </tr>
+            <tr>
+                <td>Victor</td>
+                <td>Robles</td>
+                <td>España</td>
+            </tr>
+            <tr>
+                <td>Kevin</td>
+                <td colspan="2">Lopez</td>
+                <!-- <td>Mexico</td> -->
+            </tr>
+        </table>
+
     </body>
 </html>
