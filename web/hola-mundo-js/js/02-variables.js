@@ -8,6 +8,9 @@ var continente = "Europa";
 var antiguedad = 2019;
 var pais_y_continente = pais + ' ' + continente;
 
+let prueba = "hola";
+alert(prueba);
+
 pais = "Mexico";
 continente = "Latinoamerica";
 
