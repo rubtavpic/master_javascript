@@ -14,4 +14,7 @@ var verdadero_o_falso = false;
 
 var numero_falso = "33.4";
 
-console.log(String(numero_entero)+4);
+console.log(typeof numero_entero);
+console.log(typeof cadena_texto);
+console.log(typeof verdadero_o_falso);
+console.log(typeof numero_falso);
